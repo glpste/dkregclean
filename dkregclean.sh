@@ -1,7 +1,7 @@
 #!/bin/bash
 
-REGISTRY_URL="docker-registry.services.sabio.de"
-DEFAULT_REPOSITORY="knowledge-file-management"
+REGISTRY_URL="my-registry.com"
+DEFAULT_REPOSITORY="my-repo"
 
 # If beddu.sh is not present, download it
 if [ ! -f beddu.sh ]; then
